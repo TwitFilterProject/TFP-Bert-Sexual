@@ -7,8 +7,8 @@ BERT를 활용한 선정적, 학교 폭력 표현 분류 모델 - 전유정
 2. NLP_성적, 학교폭력 대화 판별_최종 구현.ipynb 코랩에서 실행
   
 ## 모델 학습부터 실행하는 경우,
-- **3. 데이터셋 다운로드**: 텍스트 윤리검증 데이터(https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=558) 데이터셋 다운로드
-  
+- **3. 데이터셋 다운로드**: 텍스트 윤리검증 데이터(https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=558) 데이터셋 다운로드,
+- **4. 테스트 데이터셋 다운로드**: 텍스트 윤리검증 테스트 데이터에 추가로 직접 8,600개를 증량한 데이터셋 (https://docs.google.com/spreadsheets/d/1UCrK286ScyTM0G7aUdRlhi8yEUmhOqsC/edit?usp=sharing&ouid=106613437507282921508&rtpof=true&sd=true) 다운로드,
 - **4. 실행 코랩 링크 접속**: 코랩 세션 저장소에 데이터셋 업로드
   
 - **5. 런타임 실행**
@@ -19,7 +19,7 @@ BERT를 활용한 선정적, 학교 폭력 표현 분류 모델 - 전유정
 - **3. Model download Link**: https://drive.google.com/drive/folders/1d7UMQ-M65E0mKAD8Ag2eAN16k7diLfrV?usp=drive_link
   (깃허브의 대용량 파일 업로드 제한으로 구글 드라이브 링크를 통해 다운로드 해야 합니다.)
   
-- **4.구글 드라이브에 모델 저장**: final_stage1_model.pth, final_stage2_model.pth 두개의 모델 저장
+- **4.구글 드라이브에 모델 저장**: 구글 드라이브 '/gdrive/MyDrive/' 해당 경로에 final_stage1_model.pth, final_stage2_model.pth 두개의 모델 저장
 
 - **5. 실행 코랩 링크 접속**: '모델 파일 로드 후 예측 함수' 타이틀 아래 셀 실행 
 
@@ -132,12 +132,11 @@ AIHUB에서 제공하는 '텍스트 윤리검증 데이터'의 대화 유형 별
 - `PyTorch`: BSD-3-Clause
 - `Transformers by Hugging Face`: Apache License 2.0
 - `pillow (PIL)`: HPND
-- `konlpy`: MIT
+- `konlpy`: MIT, GPLv3
 
 ****
 BSD-3-Clause
-- Copyright <2024> <Yujeong Jeon HOLDER>
-
+- Copyright 2024 전유정
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -149,9 +148,9 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ****
 HPND
-[Cleans]
+Cleans
 
-Copyright (c) [2024] [Yujeong Jeon]. All rights reserved.
+Copyright (c) 2024 전유정. All rights reserved.
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -166,7 +165,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ****
 MIT
-Copyright (C) <2024> <name of Yujeong Jeon>
+Copyright (C) 2024 name of 전유정
  
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -183,7 +182,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>
 ***
 Apache License 2.0
 
-opyright [2024] [Yujeong Jeon]
+copyright 2024 전유정
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
